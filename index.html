@@ -8,26 +8,27 @@
 
     <meta
         name="description"
-        content="Professional portfolio of Athina Karatosiou — Management Science & Technology, Human Resources, Marketing, Research and Digital Innovation."
+        content="Portfolio of Athina Karatosiou — Management Science & Technology, Human Resources, Marketing, Research and Digital Innovation."
     >
 
     <meta name="author" content="Athina Karatosiou">
+    <meta name="theme-color" content="#f3f1ea">
 
-    <meta name="theme-color" content="#21382f">
+    <meta property="og:title" content="Athina Karatosiou — Portfolio">
 
-    <!-- Social sharing -->
-    <meta property="og:title" content="Athina Karatosiou | Portfolio">
     <meta
         property="og:description"
-        content="Human Resources • Marketing • Research • Digital Innovation"
+        content="Management Science & Technology · Human Resources · Marketing · Digital Innovation"
     >
+
     <meta property="og:type" content="website">
+
     <meta
         property="og:url"
         content="https://athinakaratosiou.github.io/"
     >
 
-    <title>Athina Karatosiou | Portfolio</title>
+    <title>Athina Karatosiou — Portfolio</title>
 
 
     <!-- Favicon -->
@@ -35,16 +36,12 @@
         rel="icon"
         href="data:image/svg+xml,
         <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'>
-        <rect width='100' height='100' rx='50' fill='%2321382f'/>
-        <text x='50%' y='57%' text-anchor='middle'
+        <rect width='100' height='100' rx='50' fill='%23181b18'/>
+        <text x='50%' y='58%' text-anchor='middle'
         font-family='Arial' font-size='38'
-        font-weight='700' fill='white'>AK</text>
+        font-weight='700' fill='%23f3f1ea'>AK</text>
         </svg>"
     >
-
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
 
 
     <!-- Fonts -->
@@ -57,9 +54,12 @@
     >
 
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap"
         rel="stylesheet"
     >
+
+
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
@@ -67,20 +67,21 @@
 <body>
 
 
+
 <!-- =========================================================
      NAVIGATION
 ========================================================= -->
 
-<header>
+<header class="site-header">
 
     <nav class="navbar">
 
         <div class="nav-container">
 
             <a
-                href="#home"
+                href="#top"
                 class="logo"
-                aria-label="Athina Karatosiou homepage"
+                aria-label="Athina Karatosiou"
             >
                 AK
             </a>
@@ -89,54 +90,34 @@
             <ul class="nav-links">
 
                 <li>
-                    <a href="#about">
-                        About
-                    </a>
+                    <a href="#work">Work</a>
                 </li>
 
                 <li>
-                    <a href="#education">
-                        Education
-                    </a>
+                    <a href="#about">About</a>
                 </li>
 
                 <li>
-                    <a href="#projects">
-                        Projects
-                    </a>
+                    <a href="#research">Research</a>
                 </li>
 
                 <li>
-                    <a href="#thesis">
-                        Thesis
-                    </a>
+                    <a href="#experience">Experience</a>
                 </li>
 
                 <li>
-                    <a href="#research">
-                        Research
-                    </a>
-                </li>
-
-                <li>
-                    <a href="#leadership">
-                        Leadership
-                    </a>
-                </li>
-
-                <li>
-                    <a href="#skills">
-                        Skills
-                    </a>
-                </li>
-
-                <li>
-                    <a href="#contact">
-                        Contact
-                    </a>
+                    <a href="#contact">Contact</a>
                 </li>
 
             </ul>
+
+
+            <a
+                href="mailto:karatosiouathina@gmail.com"
+                class="nav-contact"
+            >
+                Get in touch
+            </a>
 
         </div>
 
@@ -146,64 +127,68 @@
 
 
 
-<main>
+<main id="top">
+
 
 
 <!-- =========================================================
      HERO
 ========================================================= -->
 
-<section id="home" class="hero">
+<section class="hero">
 
-    <div class="hero-content">
-
-
-        <p class="hero-label">
-            Athens, Greece • Management Science & Technology
-        </p>
+    <div class="hero-inner">
 
 
-        <h1>
-            Athina Karatosiou
-        </h1>
+        <div class="hero-meta">
 
+            <span>
+                Athens, Greece
+            </span>
 
-        <h2>
-            Human Resources • Marketing • Research • Digital Innovation
-        </h2>
-
-
-        <p class="hero-text">
-
-            I combine people-oriented thinking, business strategy,
-            academic research and digital innovation through
-            multidisciplinary and cross-functional projects.
-
-        </p>
-
-
-        <div class="hero-buttons">
-
-            <a
-                href="#projects"
-                class="btn btn-primary"
-            >
-                View My Projects
-            </a>
-
-
-            <a
-                href="assets/Athina_Karatosiou_CV.pdf"
-                class="btn btn-secondary"
-                target="_blank"
-            >
-                View CV
-            </a>
+            <span>
+                Portfolio · 2026
+            </span>
 
         </div>
 
 
-        <div class="social-links">
+        <h1>
+            Athina
+            <span>Karatosiou</span>
+        </h1>
+
+
+        <div class="hero-bottom">
+
+
+            <p class="hero-role">
+
+                Management Science & Technology
+                <br>
+                Human Resources · Marketing · Digital Innovation
+
+            </p>
+
+
+            <p class="hero-intro">
+
+                I work at the intersection of people,
+                business thinking, research and technology —
+                developing ideas into structured,
+                research-informed and digitally enabled projects.
+
+            </p>
+
+        </div>
+
+
+        <div class="hero-links">
+
+            <a href="#work">
+                Selected work
+                <span>↘</span>
+            </a>
 
             <a
                 href="https://www.linkedin.com/in/athinakaratosiou"
@@ -211,8 +196,8 @@
                 rel="noopener noreferrer"
             >
                 LinkedIn
+                <span>↗</span>
             </a>
-
 
             <a
                 href="https://github.com/AthinaKaratosiou"
@@ -220,11 +205,7 @@
                 rel="noopener noreferrer"
             >
                 GitHub
-            </a>
-
-
-            <a href="mailto:karatosiouathina@gmail.com">
-                Email
+                <span>↗</span>
             </a>
 
         </div>
@@ -236,53 +217,504 @@
 
 
 <!-- =========================================================
-     ABOUT
+     MARQUEE / STATEMENT
 ========================================================= -->
 
-<section id="about" class="section">
+<section class="statement-strip">
 
-    <div class="section-container">
+    <p>
+        People
+        <span>×</span>
+        Strategy
+        <span>×</span>
+        Research
+        <span>×</span>
+        Technology
+        <span>×</span>
+        Communication
+    </p>
 
-        <p class="section-label">
-            About
+</section>
+
+
+
+<!-- =========================================================
+     SELECTED WORK
+========================================================= -->
+
+<section
+    id="work"
+    class="section work-section"
+>
+
+    <div class="section-heading">
+
+        <p class="eyebrow">
+            01 / Selected Work
         </p>
-
 
         <h2>
-            People, business and technology.
+            Projects with
+            <em>substance.</em>
         </h2>
 
-
-        <p class="section-intro">
-
-            I am an undergraduate student in Management Science
-            and Technology at the Athens University of Economics
-            and Business, with a primary academic focus on
-            Human Resources and a strong interest in Employer
-            Branding, Marketing and Digital Transformation.
-
-        </p>
+    </div>
 
 
-        <p>
 
-            My academic experience combines research and academic
-            writing with project coordination, leadership,
-            quantitative analysis, business systems and the
-            development of digital projects.
-
-        </p>
+    <div class="project-list">
 
 
-        <p>
 
-            I am particularly interested in People & Culture,
-            Talent Acquisition, Employer Branding, Internal
-            Communications, Learning & Development, People
-            Analytics and cross-functional collaboration in
-            innovative business environments.
+        <!-- ATHRIAN -->
 
-        </p>
+        <article class="project-row">
+
+            <div class="project-number">
+                01
+            </div>
+
+
+            <div class="project-main">
+
+                <div class="project-heading">
+
+                    <h3>
+                        ATHRIAN
+                    </h3>
+
+                    <span>
+                        May 2026
+                    </span>
+
+                </div>
+
+
+                <p class="project-type">
+                    Digital Cultural Innovation /
+                    Gamified Heritage Experience
+                </p>
+
+
+                <p class="project-copy">
+
+                    A digital cultural heritage concept
+                    centred on Hadrian's Library,
+                    combining gamification,
+                    experiential learning,
+                    business strategy,
+                    technological design and
+                    quantitative research.
+
+                </p>
+
+
+                <div class="project-detail-grid">
+
+                    <div>
+
+                        <span class="detail-label">
+                            Roles
+                        </span>
+
+                        <p>
+                            CEO · Project Manager · CFO ·
+                            Marketing Manager · IT Manager
+                        </p>
+
+                    </div>
+
+
+                    <div>
+
+                        <span class="detail-label">
+                            Research
+                        </span>
+
+                        <p>
+                            Quantitative study ·
+                            192 participants
+                        </p>
+
+                    </div>
+
+
+                    <div>
+
+                        <span class="detail-label">
+                            Scope
+                        </span>
+
+                        <p>
+                            Strategy / Finance / Marketing /
+                            Research / Technology /
+                            Website Development
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- KESTREL -->
+
+        <article class="project-row">
+
+            <div class="project-number">
+                02
+            </div>
+
+
+            <div class="project-main">
+
+                <div class="project-heading">
+
+                    <h3>
+                        KESTREL
+                    </h3>
+
+                    <span>
+                        2025—2026
+                    </span>
+
+                </div>
+
+
+                <p class="project-type">
+                    Smart Backpack Load Balance System
+                </p>
+
+
+                <p class="project-copy">
+
+                    A smart product concept using
+                    pressure sensing, hardware-software
+                    interaction and digital prototyping
+                    to support improved backpack load
+                    distribution.
+
+                </p>
+
+
+                <div class="project-detail-grid">
+
+                    <div>
+
+                        <span class="detail-label">
+                            Role
+                        </span>
+
+                        <p>
+                            Project Coordinator /
+                            Organization Lead
+                            <br>
+                            Technology & Prototype Manager
+                        </p>
+
+                    </div>
+
+
+                    <div>
+
+                        <span class="detail-label">
+                            Design
+                        </span>
+
+                        <p>
+                            Figma · Use Cases ·
+                            UX · Physical / 3D Product Design
+                        </p>
+
+                    </div>
+
+
+                    <div>
+
+                        <span class="detail-label">
+                            Technology
+                        </span>
+
+                        <p>
+                            Arduino · Pressure Sensors ·
+                            Hardware–Software Integration ·
+                            MIT App Inventor
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- EDUMORPH -->
+
+        <article class="project-row">
+
+            <div class="project-number">
+                03
+            </div>
+
+
+            <div class="project-main">
+
+                <div class="project-heading">
+
+                    <h3>
+                        EduMorph
+                    </h3>
+
+                    <span>
+                        2025—2026
+                    </span>
+
+                </div>
+
+
+                <p class="project-type">
+                    Participatory Educational
+                    Transformation Platform
+                </p>
+
+
+                <p class="project-copy">
+
+                    An educational technology concept
+                    designed around student voice,
+                    structured feedback and
+                    measurable educational improvement.
+
+                </p>
+
+
+                <div class="project-detail-grid">
+
+                    <div>
+
+                        <span class="detail-label">
+                            Role
+                        </span>
+
+                        <p>
+                            Project Lead & Coordinator
+                        </p>
+
+                    </div>
+
+
+                    <div>
+
+                        <span class="detail-label">
+                            Strategy
+                        </span>
+
+                        <p>
+                            Market Analysis ·
+                            Business Model ·
+                            Go-to-Market ·
+                            Personas · Empathy Maps
+                        </p>
+
+                    </div>
+
+
+                    <div>
+
+                        <span class="detail-label">
+                            Digital
+                        </span>
+
+                        <p>
+                            Full Website Development ·
+                            UX · Visual Design ·
+                            Figma Prototyping
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- BOOKBLOOM -->
+
+        <article class="project-row">
+
+            <div class="project-number">
+                04
+            </div>
+
+
+            <div class="project-main">
+
+                <div class="project-heading">
+
+                    <h3>
+                        BookBloom
+                    </h3>
+
+                    <span>
+                        Apr—May 2026
+                    </span>
+
+                </div>
+
+
+                <p class="project-type">
+                    Digital Educational Experience
+                </p>
+
+
+                <p class="project-copy">
+
+                    A complete digital educational
+                    experience developed through
+                    original content, storytelling,
+                    visual design and web interaction.
+
+                </p>
+
+
+                <div class="project-detail-grid">
+
+                    <div>
+
+                        <span class="detail-label">
+                            Role
+                        </span>
+
+                        <p>
+                            Website Designer & Developer ·
+                            UI/UX Designer ·
+                            Content Creator / Copywriter
+                        </p>
+
+                    </div>
+
+
+                    <div>
+
+                        <span class="detail-label">
+                            Ownership
+                        </span>
+
+                        <p>
+                            Website · UI/UX ·
+                            Visual Design ·
+                            Content
+                        </p>
+
+                    </div>
+
+
+                    <div class="project-action">
+
+                        <a
+                            href="https://athinakaratosiou.github.io/bookbloom/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            View live project
+                            <span>↗</span>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- STUDY BUDDY -->
+
+        <article class="project-row">
+
+            <div class="project-number">
+                05
+            </div>
+
+
+            <div class="project-main">
+
+                <div class="project-heading">
+
+                    <h3>
+                        Study Buddy
+                    </h3>
+
+                    <span>
+                        2024—2025
+                    </span>
+
+                </div>
+
+
+                <p class="project-type">
+                    Academic Digital Product /
+                    Programming II
+                </p>
+
+
+                <p class="project-copy">
+
+                    Academic team project combining
+                    digital product development with
+                    marketing, positioning and promotion.
+
+                </p>
+
+
+                <div class="project-detail-grid">
+
+                    <div>
+
+                        <span class="detail-label">
+                            Contribution
+                        </span>
+
+                        <p>
+                            Marketing · Positioning ·
+                            Promotion
+                        </p>
+
+                    </div>
+
+
+                    <div>
+
+                        <span class="detail-label">
+                            Additional involvement
+                        </span>
+
+                        <p>
+                            Active contribution to
+                            overall project development
+                            and execution
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </article>
+
 
     </div>
 
@@ -291,695 +723,63 @@
 
 
 <!-- =========================================================
-     FOCUS AREAS
+     ABOUT / PROFILE
 ========================================================= -->
 
-<section id="focus" class="section section-alt">
-
-    <div class="section-container">
-
-        <p class="section-label">
-            Focus Areas
-        </p>
-
-
-        <h2>
-            Where people and innovation meet.
-        </h2>
-
-
-        <div class="focus-grid">
-
-
-            <article class="focus-card">
-
-                <span class="focus-number">
-                    01
-                </span>
-
-                <h3>
-                    People & HR
-                </h3>
-
-                <p>
-                    People & Culture, Talent Acquisition,
-                    Employer Branding, Learning & Development,
-                    People Analytics and HR Technology.
-                </p>
-
-            </article>
-
-
-
-            <article class="focus-card">
-
-                <span class="focus-number">
-                    02
-                </span>
-
-                <h3>
-                    Marketing & Communication
-                </h3>
-
-                <p>
-                    Brand communication, positioning,
-                    digital marketing, content,
-                    internal communication and
-                    audience-focused strategy.
-                </p>
-
-            </article>
-
-
-
-            <article class="focus-card">
-
-                <span class="focus-number">
-                    03
-                </span>
-
-                <h3>
-                    Research & Analytics
-                </h3>
-
-                <p>
-                    Quantitative research, survey design,
-                    SPSS, data interpretation,
-                    academic research and
-                    evidence-based decision making.
-                </p>
-
-            </article>
-
-
-
-            <article class="focus-card">
-
-                <span class="focus-number">
-                    04
-                </span>
-
-                <h3>
-                    Digital Innovation
-                </h3>
-
-                <p>
-                    Digital products, cross-functional
-                    projects, business systems,
-                    technology-enabled innovation
-                    and digital transformation.
-                </p>
-
-            </article>
-
-
-        </div>
-
-    </div>
-
-</section>
-
-
-
-<!-- =========================================================
-     EDUCATION
-========================================================= -->
-
-<section id="education" class="section">
-
-    <div class="section-container">
-
-
-        <p class="section-label">
-            Education
-        </p>
-
-
-        <h2>
-            Academic background.
-        </h2>
-
-
-        <div class="experience-grid">
-
-
-            <article class="experience-card">
-
-                <span class="experience-date">
-                    October 2022 — Present
-                </span>
-
-
-                <h3>
-                    BSc in Management Science and Technology
-                </h3>
-
-
-                <h4>
-                    Athens University of Economics and Business
-                </h4>
-
-
-                <p>
-
-                    Primary stream:
-                    <strong>
-                        Strategy, Entrepreneurship and Human Resources
-                    </strong>.
-
-                    Secondary academic focus:
-                    <strong>
-                        Logistics
-                    </strong>.
-
-                </p>
-
-
-                <p>
-
-                    Selected academic areas include
-                    Personal & Leadership Skills Development,
-                    Strategy & Innovation,
-                    International Business Management and
-                    Digital Innovation & Entrepreneurship.
-
-                </p>
-
-            </article>
-
-
-
-            <article class="experience-card">
-
-                <span class="experience-date">
-                    October 2025 — June 2026
-                </span>
-
-
-                <h3>
-                    AUEB Teacher Education Program
-                </h3>
-
-
-                <h4>
-                    Athens University of Economics and Business
-                </h4>
-
-
-                <p>
-
-                    Completed the Program in Education Sciences
-                    and obtained the
-                    <strong>
-                        Pedagogical and Teaching Competency
-                        Certificate in Education Sciences
-                    </strong>.
-
-                </p>
-
-            </article>
-
-
-        </div>
-
-    </div>
-
-</section>
-
-
-
-<!-- =========================================================
-     PROJECTS
-========================================================= -->
-
-<section id="projects" class="section section-alt">
-
-    <div class="section-container">
-
-        <p class="section-label">
-            Featured Work
-        </p>
-
-
-        <h2>
-            Selected Projects
-        </h2>
-
-
-        <p class="section-intro">
-
-            Selected academic and digital projects through which
-            I developed experience across leadership,
-            business strategy, marketing, research,
-            technology, UX and digital product development.
-
-        </p>
-
-
-
-        <div class="projects-grid">
-
-
-<!-- =========================================================
-     ATHRIAN
-========================================================= -->
-
-<article class="project-card featured-project">
-
-    <div class="project-top">
-
-        <span class="project-category">
-            Digital Innovation • Cultural Heritage • Strategy
-        </span>
-
-        <span class="project-year">
-            Completed May 2026
-        </span>
-
-    </div>
-
-
-    <h3>
-        ATHRIAN
-    </h3>
-
-
-    <p class="project-subtitle">
-        Digital Cultural Innovation & Gamified Heritage Experience
-    </p>
-
-
-    <p class="project-description">
-
-        A gamified cultural heritage experience developed
-        around Hadrian's Library, combining experiential
-        learning, business strategy, digital innovation,
-        technological design and quantitative research.
-
-    </p>
-
-
-    <div class="project-role">
-
-        <strong>
-            Roles
-        </strong>
-
-        <p>
-            CEO • Project Manager • CFO •
-            Marketing Manager • IT Manager
+<section
+    id="about"
+    class="section profile-section"
+>
+
+    <div class="profile-left">
+
+        <p class="eyebrow">
+            02 / Profile
         </p>
 
     </div>
 
 
-    <p class="project-description">
-
-        End-to-end involvement across project leadership,
-        business and financial planning, marketing,
-        technology, website development and research.
-
-        The project included a quantitative study with
-        <strong>192 participants</strong>.
-
-    </p>
-
-
-    <div class="project-tags">
-
-        <span>Leadership</span>
-
-        <span>Project Management</span>
-
-        <span>Business Strategy</span>
-
-        <span>Marketing</span>
-
-        <span>Finance</span>
-
-        <span>Digital Innovation</span>
-
-        <span>Research</span>
-
-        <span>Web Development</span>
-
-    </div>
-
-</article>
-
-
-
-<!-- =========================================================
-     KESTREL
-========================================================= -->
-
-<article class="project-card">
-
-    <div class="project-top">
-
-        <span class="project-category">
-            Product Innovation • Technology
-        </span>
-
-        <span class="project-year">
-            2025–2026
-        </span>
-
-    </div>
-
-
-    <h3>
-        KESTREL
-    </h3>
-
-
-    <p class="project-subtitle">
-        Smart Backpack Load Balance System
-    </p>
-
-
-    <p class="project-description">
-
-        A smart backpack concept designed to monitor
-        load distribution through pressure sensing,
-        hardware-software interaction and digital
-        product prototyping.
-
-    </p>
-
-
-    <div class="project-role">
-
-        <strong>
-            Roles
-        </strong>
-
-        <p>
-            Project Coordinator /
-            Organization Lead •
-            Technology & Prototype Manager
-        </p>
-
-    </div>
-
-
-    <p class="project-description">
-
-        Contributions included project coordination,
-        Figma interactive prototyping,
-        Arduino hardware development,
-        sensor-based logic,
-        hardware-software integration,
-        use-case design,
-        MIT App Inventor software prototyping
-        and physical / 3D product design.
-
-    </p>
-
-
-    <div class="project-tags">
-
-        <span>Project Coordination</span>
-
-        <span>Figma</span>
-
-        <span>Arduino UNO</span>
-
-        <span>FSR Sensors</span>
-
-        <span>Hardware Prototype</span>
-
-        <span>MIT App Inventor</span>
-
-        <span>UX</span>
-
-        <span>3D Product Design</span>
-
-    </div>
-
-</article>
-
-
-
-<!-- =========================================================
-     EDUMORPH
-========================================================= -->
-
-<article class="project-card">
-
-    <div class="project-top">
-
-        <span class="project-category">
-            EdTech • Business Innovation • UX
-        </span>
-
-        <span class="project-year">
-            2025–2026
-        </span>
-
-    </div>
-
-
-    <h3>
-        EduMorph
-    </h3>
-
-
-    <p class="project-subtitle">
-        Participatory Educational Transformation Platform
-    </p>
-
-
-    <p class="project-description">
-
-        An EdTech platform concept designed to transform
-        student voice into structured feedback,
-        pedagogical interventions and measurable
-        educational improvement.
-
-    </p>
-
-
-    <div class="project-role">
-
-        <strong>
-            Role
-        </strong>
-
-        <p>
-            Project Lead & Coordinator
-        </p>
-
-    </div>
-
-
-    <p class="project-description">
-
-        Full project ownership across business concept
-        development, market and problem analysis,
-        business model, go-to-market strategy,
-        personas, empathy maps, UX research,
-        website development, content,
-        visual design and Figma prototyping.
-
-    </p>
-
-
-    <div class="project-tags">
-
-        <span>Project Leadership</span>
-
-        <span>Business Strategy</span>
-
-        <span>EdTech</span>
-
-        <span>Personas</span>
-
-        <span>Empathy Maps</span>
-
-        <span>UX Research</span>
-
-        <span>Web Development</span>
-
-        <span>Figma</span>
-
-        <span>Visual Design</span>
-
-    </div>
-
-</article>
-
-
-
-<!-- =========================================================
-     BOOKBLOOM
-========================================================= -->
-
-<article class="project-card">
-
-    <div class="project-top">
-
-        <span class="project-category">
-            Education • Web • UX
-        </span>
-
-        <span class="project-year">
-            April — May 2026
-        </span>
-
-    </div>
-
-
-    <h3>
-        BookBloom
-    </h3>
-
-
-    <p class="project-subtitle">
-        Η Βιβλιοθήκη που Ανθίζει
-    </p>
-
-
-    <p class="project-description">
-
-        A digital educational experience developed
-        through original content, storytelling,
-        visual design and web-based interaction.
-
-    </p>
-
-
-    <div class="project-role">
-
-        <strong>
-            Role
-        </strong>
-
-        <p>
-            Website Designer & Developer •
-            UI/UX Designer •
-            Content Creator / Copywriter
-        </p>
-
-    </div>
-
-
-    <p class="project-description">
-
-        End-to-end responsibility for the website,
-        its UI/UX design, visual identity,
-        digital structure and all written content.
-
-    </p>
-
-
-    <div class="project-tags">
-
-        <span>Web Development</span>
-
-        <span>UI/UX</span>
-
-        <span>Digital Design</span>
-
-        <span>Content Creation</span>
-
-        <span>Copywriting</span>
-
-        <span>GitHub Pages</span>
-
-    </div>
-
-
-    <a
-        href="https://athinakaratosiou.github.io/bookbloom/"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="project-link"
-    >
-        Visit BookBloom →
-    </a>
-
-</article>
-
-
-
-<!-- =========================================================
-     STUDY BUDDY
-========================================================= -->
-
-<article class="project-card">
-
-    <div class="project-top">
-
-        <span class="project-category">
-            Marketing • Digital Product
-        </span>
-
-        <span class="project-year">
-            2024–2025
-        </span>
-
-    </div>
-
-
-    <h3>
-        Study Buddy
-    </h3>
-
-
-    <p class="project-subtitle">
-        Academic Digital Product Project
-    </p>
-
-
-    <p class="project-description">
-
-        Academic team project developed within
-        Programming II at the Department of
-        Management Science and Technology.
-
-    </p>
-
-
-    <div class="project-role">
-
-        <strong>
-            Contribution
-        </strong>
-
-        <p>
-
-            Full responsibility for marketing,
-            positioning and promotion, with active
-            contribution to the overall project
-            development and execution.
+    <div class="profile-right">
+
+        <p class="profile-large">
+
+            I am studying
+            <em>Management Science & Technology</em>
+            at the Athens University of Economics
+            and Business, with a primary academic
+            focus on Strategy, Entrepreneurship
+            and Human Resources.
 
         </p>
 
-    </div>
+
+        <div class="profile-columns">
+
+            <p>
+
+                My interests sit across
+                People & Culture,
+                Employer Branding,
+                Talent Acquisition,
+                Internal Communications,
+                Marketing,
+                Learning & Development
+                and People Analytics.
+
+            </p>
 
 
-    <div class="project-highlight">
-        Academic Project Recognition
-    </div>
+            <p>
 
+                I am particularly interested in
+                environments where organizational
+                challenges intersect with
+                digital transformation,
+                research and
+                cross-functional collaboration.
 
-    <div class="project-tags">
-
-        <span>Marketing</span>
-
-        <span>Positioning</span>
-
-        <span>Promotion</span>
-
-        <span>Digital Product</span>
-
-        <span>Team Project</span>
-
-    </div>
-
-</article>
-
+            </p>
 
         </div>
 
@@ -993,55 +793,53 @@
      THESIS
 ========================================================= -->
 
-<section id="thesis" class="section section-dark">
+<section class="thesis-section">
 
-    <div class="section-container">
+    <div class="thesis-top">
 
-        <p class="section-label">
-            Undergraduate Thesis
+        <p class="eyebrow light">
+            Undergraduate Thesis · 2026
         </p>
 
-
-        <div class="thesis-content">
-
-
-            <div>
-
-                <span class="status">
-                    In Progress • 2026
-                </span>
+    </div>
 
 
-                <h2>
-                    Human Capital Capabilities for
-                    Digital Product and Service Innovation
-                </h2>
+    <div class="thesis-layout">
 
 
-                <h3>
+        <h2>
 
-                    The role of competencies,
-                    knowledge sharing,
-                    and cross-functional collaboration
+            Human Capital Capabilities
+            for Digital Product and
+            Service Innovation
 
-                </h3>
-
-            </div>
+        </h2>
 
 
+        <div class="thesis-copy">
 
-            <p>
+            <p class="thesis-subtitle">
 
-                The research examines how knowledge sharing
-                and cross-functional collaboration relate
-                to perceived innovation project performance
-                in cross-functional digital product and
-                service teams.
+                The role of competencies,
+                knowledge sharing and
+                cross-functional collaboration.
 
             </p>
 
 
+            <p>
+
+                The research examines the relationship
+                between knowledge sharing,
+                cross-functional collaboration
+                and perceived innovation project
+                performance within digital product
+                and service teams.
+
+            </p>
+
         </div>
+
 
     </div>
 
@@ -1053,73 +851,125 @@
      RESEARCH
 ========================================================= -->
 
-<section id="research" class="section">
+<section
+    id="research"
+    class="section research-section"
+>
 
-    <div class="section-container">
+    <div class="section-heading compact">
 
-        <p class="section-label">
-            Research
+        <p class="eyebrow">
+            03 / Research
         </p>
 
-
         <h2>
-            International Academic Research
+            Academic work.
         </h2>
 
+    </div>
 
-        <div class="research-box">
+
+    <div class="research-layout">
+
+
+        <div class="research-intro">
+
+            <p>
+
+                Active participation as co-author
+                in multiple international academic
+                submissions.
+
+            </p>
 
 
             <p>
 
-                Active participation as co-author in
-                multiple international academic submissions,
-                with
-                <strong>
-                    Corresponding Author responsibility
-                    for five manuscripts submitted to
-                    Inderscience journals
-                </strong>.
+                Corresponding Author responsibility
+                for five manuscripts submitted
+                to Inderscience journals.
 
             </p>
 
+        </div>
 
-            <div class="journal-list">
+
+        <div class="journal-index">
+
+
+            <div class="journal-row">
 
                 <span>
+                    01
+                </span>
+
+                <p>
                     Sustainability
-                </span>
-
-                <span>
-                    Education Sciences
-                </span>
-
-                <span>
-                    Quality Assurance in Education
-                </span>
-
-                <span>
-                    International Journal of Banking,
-                    Accounting and Finance
-                </span>
-
-                <span>
-                    International Journal of
-                    Technology Enhanced Learning
-                </span>
+                </p>
 
             </div>
 
 
-            <p class="research-note">
+            <div class="journal-row">
 
-                Selected journals shown above,
-                among others.
+                <span>
+                    02
+                </span>
 
+                <p>
+                    Education Sciences
+                </p>
+
+            </div>
+
+
+            <div class="journal-row">
+
+                <span>
+                    03
+                </span>
+
+                <p>
+                    Quality Assurance in Education
+                </p>
+
+            </div>
+
+
+            <div class="journal-row">
+
+                <span>
+                    04
+                </span>
+
+                <p>
+                    International Journal of Banking,
+                    Accounting and Finance
+                </p>
+
+            </div>
+
+
+            <div class="journal-row">
+
+                <span>
+                    05
+                </span>
+
+                <p>
+                    International Journal of
+                    Technology Enhanced Learning
+                </p>
+
+            </div>
+
+
+            <p class="journal-note">
+                Selected journals, among others.
             </p>
 
-
         </div>
+
 
     </div>
 
@@ -1128,235 +978,177 @@
 
 
 <!-- =========================================================
-     LEADERSHIP
+     EXPERIENCE + EDUCATION
 ========================================================= -->
 
-<section id="leadership" class="section section-alt">
+<section
+    id="experience"
+    class="section timeline-section"
+>
 
-    <div class="section-container">
+    <div class="section-heading">
 
-        <p class="section-label">
-            Leadership & International Experience
+        <p class="eyebrow">
+            04 / Experience & Education
         </p>
 
-
         <h2>
-            Collaboration beyond the classroom.
+            Selected timeline.
         </h2>
 
+    </div>
 
-        <div class="experience-grid">
 
 
-            <article class="experience-card">
+    <div class="timeline">
 
-                <span class="experience-date">
-                    Brussels, Belgium • July 2025
-                </span>
 
+
+        <article class="timeline-row">
+
+            <div class="timeline-year">
+                2022—
+            </div>
+
+
+            <div class="timeline-content">
 
                 <h3>
-                    CISV
+                    Athens University of Economics
+                    and Business
                 </h3>
 
-
-                <h4>
-                    Greek Delegation Leader /
-                    Volunteer Team Leader
-                </h4>
-
-
-                <p>
-
-                    One-month international volunteer
-                    experience involving responsibility
-                    for the Greek delegation,
-                    program and activity coordination,
-                    communication with international
-                    leaders and day-to-day team support
-                    in a multicultural environment.
-
+                <p class="timeline-role">
+                    BSc in Management Science & Technology
                 </p>
 
-            </article>
+                <p>
+                    Strategy, Entrepreneurship
+                    and Human Resources ·
+                    Secondary focus in Logistics
+                </p>
+
+            </div>
+
+        </article>
 
 
 
-            <article class="experience-card">
+        <article class="timeline-row">
 
-                <span class="experience-date">
-                    Greece • 2021
-                </span>
+            <div class="timeline-year">
+                2025—26
+            </div>
 
+
+            <div class="timeline-content">
+
+                <h3>
+                    AUEB Teacher Education Program
+                </h3>
+
+                <p class="timeline-role">
+                    Pedagogical and Teaching
+                    Competency Certificate
+                    in Education Sciences
+                </p>
+
+            </div>
+
+        </article>
+
+
+
+        <article class="timeline-row">
+
+            <div class="timeline-year">
+                Jul 2025
+            </div>
+
+
+            <div class="timeline-content">
+
+                <h3>
+                    CISV · Brussels, Belgium
+                </h3>
+
+                <p class="timeline-role">
+                    Greek Delegation Leader /
+                    Volunteer Team Leader
+                </p>
+
+                <p>
+                    One-month international experience
+                    involving delegation leadership,
+                    activity coordination and
+                    communication in a multicultural
+                    environment.
+                </p>
+
+            </div>
+
+        </article>
+
+
+
+        <article class="timeline-row">
+
+            <div class="timeline-year">
+                2021
+            </div>
+
+
+            <div class="timeline-content">
 
                 <h3>
                     European Youth Parliament Greece
                 </h3>
 
-
-                <h4>
+                <p class="timeline-role">
                     Mentorship Programme —
                     “Touched by an Angel”
-                </h4>
-
-
-                <p>
-
-                    Participated as a mentee in a
-                    Human Resources Working Group
-                    experience focused on collaboration,
-                    communication and structured dialogue,
-                    alongside participation in a
-                    three-day EYP activity in Thessaloniki.
-
                 </p>
 
-            </article>
+                <p>
+                    Human Resources Working Group ·
+                    Collaboration · Communication ·
+                    Structured Dialogue
+                </p>
+
+            </div>
+
+        </article>
 
 
 
-            <article class="experience-card">
+        <article class="timeline-row">
 
-                <span class="experience-date">
-                    Athens • 17 May 2026
-                </span>
+            <div class="timeline-year">
+                May 2026
+            </div>
 
+
+            <div class="timeline-content">
 
                 <h3>
-                    AUEB Department Representative
+                    Department Representative
+                    & Presenter
                 </h3>
 
-
-                <h4>
-                    Management Science & Technology
-                </h4>
-
-
-                <p>
-
-                    Represented and presented the
-                    Department of Management Science
-                    and Technology at Marousi City Hall
-                    to secondary-school students.
-
+                <p class="timeline-role">
+                    AUEB · Management Science
+                    & Technology
                 </p>
 
-            </article>
-
-
-        </div>
-
-    </div>
-
-</section>
-
-
-
-<!-- =========================================================
-     CERTIFICATIONS
-========================================================= -->
-
-<section id="certifications" class="section">
-
-    <div class="section-container">
-
-
-        <p class="section-label">
-            Selected Certifications
-        </p>
-
-
-        <h2>
-            Continuous professional development.
-        </h2>
-
-
-        <div class="skills-grid">
-
-
-            <article class="skill-group">
-
-                <h3>
-                    SAP Learning
-                </h3>
-
                 <p>
-
-                    Exploring End-to-End Business Processes
-                    in SAP Business Suite (Intermediate)
-                    • RISE with SAP Methodology
-                    • Finance in SAP S/4HANA
-                    • Purchasing in SAP S/4HANA
-
+                    Department presentation
+                    at Marousi City Hall.
                 </p>
 
-            </article>
+            </div>
 
+        </article>
 
-
-            <article class="skill-group">
-
-                <h3>
-                    Microsoft — AI & Transformation
-                </h3>
-
-                <p>
-
-                    Microsoft AI Tour Athens
-                    • AI Builders: Prompt Engineering
-                    • Scaling AI in the Enterprise
-                    • Responsible AI
-                    • Human-AI Interfaces
-                    • AI Systems Integration
-
-                </p>
-
-            </article>
-
-
-
-            <article class="skill-group">
-
-                <h3>
-                    Microsoft — Business & Agents
-                </h3>
-
-                <p>
-
-                    Microsoft AI Power Days
-                    • Agent-a-thon Level 2
-                    • Transform Everyday Business
-                    Processes with Agents
-                    • Career Essentials in Generative AI —
-                    Microsoft & LinkedIn
-
-                </p>
-
-            </article>
-
-
-
-            <article class="skill-group">
-
-                <h3>
-                    Professional Development
-                </h3>
-
-                <p>
-
-                    Panorama of Entrepreneurship & Career
-                    Development 2023–2026
-                    • Jean Monnet Seminar
-                    • 22nd DMST Student Conference
-                    “Reshaping Tomorrow”
-                    • CISV Safeguarding Advanced
-
-                </p>
-
-            </article>
-
-
-        </div>
 
     </div>
 
@@ -1368,157 +1160,237 @@
      SKILLS
 ========================================================= -->
 
-<section id="skills" class="section section-alt">
+<section class="skills-section">
 
-    <div class="section-container">
+    <div class="skills-header">
 
-        <p class="section-label">
-            Skills & Tools
+        <p class="eyebrow light">
+            05 / Capabilities
+        </p>
+
+        <h2>
+            Tools &
+            <em>thinking.</em>
+        </h2>
+
+    </div>
+
+
+    <div class="skill-index">
+
+
+        <div class="skill-row">
+
+            <span>
+                Research
+            </span>
+
+            <p>
+                SPSS · Quantitative Research ·
+                Survey Design · Statistical Analysis ·
+                Data Interpretation · Excel
+            </p>
+
+        </div>
+
+
+        <div class="skill-row">
+
+            <span>
+                People & Marketing
+            </span>
+
+            <p>
+                Employer Branding ·
+                Internal Communications ·
+                Digital Marketing ·
+                Stakeholder Communication ·
+                Content Creation
+            </p>
+
+        </div>
+
+
+        <div class="skill-row">
+
+            <span>
+                Digital
+            </span>
+
+            <p>
+                HTML · JavaScript · Java ·
+                Python · C++ · GitHub ·
+                GitHub Pages
+            </p>
+
+        </div>
+
+
+        <div class="skill-row">
+
+            <span>
+                Business Systems
+            </span>
+
+            <p>
+                SAP S/4HANA ·
+                SoftOne ERP ·
+                ERP Systems ·
+                Database Management
+            </p>
+
+        </div>
+
+
+        <div class="skill-row">
+
+            <span>
+                Design
+            </span>
+
+            <p>
+                Adobe Creative Cloud ·
+                Figma · Canva · CapCut ·
+                PowerPoint
+            </p>
+
+        </div>
+
+
+        <div class="skill-row">
+
+            <span>
+                Professional
+            </span>
+
+            <p>
+                Leadership · Project Coordination ·
+                Public Speaking · Academic Writing ·
+                Teamwork · Cross-functional Collaboration
+            </p>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     CREDENTIALS
+========================================================= -->
+
+<section class="section credentials-section">
+
+    <div class="section-heading compact">
+
+        <p class="eyebrow">
+            06 / Selected Credentials
+        </p>
+
+        <h2>
+            Continuous learning.
+        </h2>
+
+    </div>
+
+
+    <div class="credentials-grid">
+
+
+        <div class="credential">
+
+            <span>
+                SAP
+            </span>
+
+            <p>
+                End-to-End Business Processes ·
+                SAP Business Suite ·
+                Finance in SAP S/4HANA ·
+                Purchasing ·
+                RISE with SAP Methodology
+            </p>
+
+        </div>
+
+
+        <div class="credential">
+
+            <span>
+                Microsoft
+            </span>
+
+            <p>
+                AI Tour Athens ·
+                Prompt Engineering ·
+                Scaling AI in the Enterprise ·
+                Responsible AI ·
+                AI Systems Integration
+            </p>
+
+        </div>
+
+
+        <div class="credential">
+
+            <span>
+                Professional Development
+            </span>
+
+            <p>
+                Microsoft AI Power Days ·
+                Agent-a-thon ·
+                Generative AI ·
+                Panorama of Entrepreneurship & Career ·
+                CISV Safeguarding Advanced
+            </p>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     LANGUAGES
+========================================================= -->
+
+<section class="languages-section">
+
+    <div class="languages-inner">
+
+        <p class="eyebrow">
+            Languages
         </p>
 
 
-        <h2>
-            A multidisciplinary toolkit.
-        </h2>
+        <div class="languages-list">
 
+            <div>
+                <span>English</span>
+                <p>B2 · Certified</p>
+            </div>
 
-        <div class="skills-grid">
+            <div>
+                <span>Spanish</span>
+                <p>Basic</p>
+            </div>
 
+            <div>
+                <span>Italian</span>
+                <p>Basic</p>
+            </div>
 
-            <article class="skill-group">
-
-                <h3>
-                    Research & Data
-                </h3>
-
-                <p>
-
-                    SPSS • Quantitative Research •
-                    Survey Design • Statistical Analysis •
-                    Data Interpretation • Microsoft Excel
-
-                </p>
-
-            </article>
-
-
-
-            <article class="skill-group">
-
-                <h3>
-                    HR, Marketing & Communication
-                </h3>
-
-                <p>
-
-                    Employer Branding • Talent Acquisition •
-                    Internal Communications •
-                    Digital Marketing •
-                    Stakeholder Communication •
-                    Content Creation
-
-                </p>
-
-            </article>
-
-
-
-            <article class="skill-group">
-
-                <h3>
-                    Programming & Web
-                </h3>
-
-                <p>
-
-                    HTML • JavaScript • Java •
-                    Python • C++ • GitHub •
-                    GitHub Pages • Web Development
-
-                </p>
-
-            </article>
-
-
-
-            <article class="skill-group">
-
-                <h3>
-                    Business Systems
-                </h3>
-
-                <p>
-
-                    SAP S/4HANA • SoftOne ERP •
-                    ERP Systems • Database Management
-
-                </p>
-
-            </article>
-
-
-
-            <article class="skill-group">
-
-                <h3>
-                    Design & Content
-                </h3>
-
-                <p>
-
-                    Adobe Creative Cloud Suite •
-                    Figma • Canva • CapCut •
-                    PowerPoint • Digital Content •
-                    Educational Content Development
-
-                </p>
-
-            </article>
-
-
-
-            <article class="skill-group">
-
-                <h3>
-                    Professional Skills
-                </h3>
-
-                <p>
-
-                    Leadership • Project Coordination •
-                    Teamwork • Problem Solving •
-                    Public Speaking • Academic Writing •
-                    Cross-functional Collaboration
-
-                </p>
-
-            </article>
-
-
-
-            <article class="skill-group">
-
-                <h3>
-                    Languages
-                </h3>
-
-                <p>
-
-                    English — B2 (Certified)
-                    <br>
-
-                    Spanish — Basic
-                    <br>
-
-                    Italian — Basic
-                    <br>
-
-                    German — Basic
-
-                </p>
-
-            </article>
-
+            <div>
+                <span>German</span>
+                <p>Basic</p>
+            </div>
 
         </div>
 
@@ -1532,65 +1404,76 @@
      CONTACT
 ========================================================= -->
 
-<section id="contact" class="section contact-section">
+<section
+    id="contact"
+    class="contact-section"
+>
 
-    <div class="section-container contact-container">
-
-        <p class="section-label">
-            Contact
-        </p>
-
-
-        <h2>
-            Let's connect.
-        </h2>
-
+    <div class="contact-top">
 
         <p>
             Athens, Greece
         </p>
 
-
         <p>
+            Open to internship opportunities
+            across HR, Employer Branding,
+            Marketing and Digital Innovation.
+        </p>
 
-            Interested in opportunities across
-            Human Resources, Employer Branding,
-            Marketing, Digital Innovation
-            and related business roles.
+    </div>
 
+
+    <div class="contact-main">
+
+        <p class="eyebrow light">
+            Let's work together
         </p>
 
 
-        <div class="contact-buttons">
+        <a
+            href="mailto:karatosiouathina@gmail.com"
+            class="contact-email"
+        >
+            karatosiouathina
+            <span>@gmail.com ↗</span>
+        </a>
+
+    </div>
 
 
-            <a
-                href="mailto:karatosiouathina@gmail.com"
-                class="btn btn-primary"
-            >
-                karatosiouathina@gmail.com
-            </a>
+    <div class="contact-footer">
 
+        <p>
+            © <span id="year">2026</span>
+            Athina Karatosiou
+        </p>
+
+
+        <div>
 
             <a
                 href="https://www.linkedin.com/in/athinakaratosiou"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="btn btn-secondary"
             >
-                LinkedIn
+                LinkedIn ↗
             </a>
-
 
             <a
                 href="https://github.com/AthinaKaratosiou"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="btn btn-secondary"
             >
-                GitHub
+                GitHub ↗
             </a>
 
+            <a
+                href="assets/Athina_Karatosiou_CV.pdf"
+                target="_blank"
+            >
+                CV ↗
+            </a>
 
         </div>
 
@@ -1599,37 +1482,11 @@
 </section>
 
 
+
 </main>
 
 
-
-<!-- =========================================================
-     FOOTER
-========================================================= -->
-
-<footer>
-
-    <div class="footer-container">
-
-        <p>
-            © 2026 Athina Karatosiou
-        </p>
-
-        <p>
-            Athens, Greece
-        </p>
-
-    </div>
-
-</footer>
-
-
-
-<!-- JavaScript -->
-
 <script src="script.js"></script>
 
-
 </body>
-
 </html>
